@@ -1,0 +1,69 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877 ]
+[d frameptr 0 ]
+"26 E:\MCU\Pic16f877_Project\UART.X\main.c
+[e E802 STATUS `uc
+ENABLE 1
+DISENABLE 0
+]
+"5 E:\MCU\Pic16f877_Project\UART.X\uart.c
+[e E802 STATUS `uc
+ENABLE 1
+DISENABLE 0
+]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"14 E:\MCU\Pic16f877_Project\UART.X\main.c
+[v _auto_transmit auto_transmit `II(v  1 e 1 0 ]
+"25
+[v _main main `(v  1 e 1 0 ]
+"5 E:\MCU\Pic16f877_Project\UART.X\uart.c
+[v _uart_init uart_init `(v  1 e 1 0 ]
+"16
+[v _uart_put uart_put `(v  1 e 1 0 ]
+"454 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877.h
+[v _INTCON INTCON `VEuc  1 e 1 @11 ]
+"532
+[v _PIR1 PIR1 `VEuc  1 e 1 @12 ]
+"959
+[v _RCSTA RCSTA `VEuc  1 e 1 @24 ]
+"1054
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+"1432
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1613
+[v _PIE1 PIE1 `VEuc  1 e 1 @140 ]
+"1987
+[v _TXSTA TXSTA `VEuc  1 e 1 @152 ]
+"2068
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+"11 E:\MCU\Pic16f877_Project\UART.X\main.c
+[v _start start `i  1 e 2 0 ]
+"12
+[v _frame frame `[5]uc  1 e 5 0 ]
+"25
+[v _main main `(v  1 e 1 0 ]
+{
+"29
+} 0
+"5 E:\MCU\Pic16f877_Project\UART.X\uart.c
+[v _uart_init uart_init `(v  1 e 1 0 ]
+{
+[v uart_init@intp intp `E802  1 a 1 wreg ]
+[v uart_init@intp intp `E802  1 a 1 wreg ]
+[v uart_init@intp intp `E802  1 a 1 4 ]
+"14
+} 0
+"14 E:\MCU\Pic16f877_Project\UART.X\main.c
+[v _auto_transmit auto_transmit `II(v  1 e 1 0 ]
+{
+"23
+} 0
